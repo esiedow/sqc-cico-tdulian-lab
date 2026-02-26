@@ -71,4 +71,14 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 * abcd should not display in the field.
 
 
+# Module 5: Ticket 501 - Add button to clear screen
+
+##Test Steps
+1. Build and run CiCo.
+2. Enter 00000000 into the field and click Update.
+3. Checked in or Checked out screen appears.
+4. Find Done button
+5. Click Done
+##Expected results
+* User should be returned to Scan Card screen
 
