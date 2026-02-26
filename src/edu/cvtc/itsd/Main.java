@@ -275,6 +275,7 @@ public class Main {
     updateButton.setForeground(Color.green);
     panelMain.add(updateButton);
 
+
     panelMain.add(Box.createVerticalGlue());
 
     // Status panel ///////////////////////////////////////////////////////////
@@ -286,6 +287,7 @@ public class Main {
     panelStatus.setBackground(Color.blue);
 
     panelStatus.add(Box.createVerticalGlue());
+
     labelUser = new JLabel("Registrant", JLabel.LEADING);
     labelUser.setFont(fontMain);
     labelUser.setAlignmentX(JComponent.CENTER_ALIGNMENT);
@@ -299,6 +301,12 @@ public class Main {
     panelStatus.add(labelState);
 
     panelStatus.add(Box.createVerticalGlue());
+
+    JButton buttonDone = new JButton("Done");
+    buttonDone.setAlignmentX(JComponent.CENTER_ALIGNMENT);
+    buttonDone.addActionListener(handler);
+    buttonDone.setForeground(Color.magenta);
+    panelStatus.add(buttonDone);
 
     // Error panel ////////////////////////////////////////////////////////////
     JPanel panelError = new JPanel();
