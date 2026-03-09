@@ -82,3 +82,13 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ##Expected results
 * User should be returned to Scan Card screen
 
+
+Module 6: Ticket 601 - Enter automatically when 8 digits
+
+##Test Steps
+1. Build and run CiCo.
+2. Enter 00000000 into the field
+
+##Expected results
+* User should have been brought to the next page 
+  without having to press enter 
